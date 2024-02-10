@@ -1,4 +1,4 @@
-import { Versions } from './components/Versions';
+import { Versions } from './components/versions-list';
 import electronLogo from './assets/electron.svg';
 
 export function App(): JSX.Element {
@@ -30,6 +30,6 @@ export function App(): JSX.Element {
             </div>
         </div>
 
-        <Versions></Versions>
+        <Versions />
     </>);
 }
